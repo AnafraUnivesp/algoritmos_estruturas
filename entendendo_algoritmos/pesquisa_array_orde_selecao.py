@@ -21,7 +21,7 @@ def ordenacaoporSelecao(arr): # função para ordenação por seleção utilizan
         novoArr.append(arr.pop(menor)) #busca do indice do menor elemento da lista atual / remove e retorna o menor elemento
     return novoArr   #retorno da lista ordenada
 # Teste exemplo
-print (ordenacaoporSelecao([5, 1, 6, 2, 10,20,30,50]))
+print (ordenacaoporSelecao([5, 1, 6, 2, 10,20,30,50,70]))
 
 
 
